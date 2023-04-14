@@ -1,0 +1,212 @@
+body{
+
+    background-color: rgb(106, 6, 6);
+    color: aliceblue
+
+}
+
+
+
+/* button "add nationalite"  */
+
+a[class='btn btn-sucess']{
+
+    background-color: rgb(20, 168, 14);
+    color: white;
+    font-weight: bold;
+    border: none;
+    
+
+}
+
+a[class='btn btn-sucess']:hover{
+
+    transform: scale(1.08);
+    transition: 0.8s;
+    color: white;
+   
+     
+
+}
+
+/* button "revenir à liste des nationalités"  */
+
+a[class="btn nat"]{
+
+    background-color: rgb(0, 89, 255);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    width: 160px;
+    height: 35px;
+
+}
+
+a[class="btn nat"]:hover{
+
+    color: white;
+    transform: scale(1.08);
+    transition: 0.8s;
+
+}
+
+/* button ajouter  */
+
+button[type="submit"]{
+
+    background-color: rgb(0, 204, 31);
+    color: white;
+    font-weight: bold;
+    border: none;
+    width: 140px;
+    height: 35px;
+    border-radius: 6px;
+
+}
+
+button[type="submit"]:hover{
+
+    transform: scale(1.08);
+    transition: 0.8s;
+
+}
+
+/* alignement des boutons */
+
+.col{
+
+    
+    display: flex;
+    
+}
+
+/* input libelle */
+
+input[name="libelle"]{
+
+    width: 267px;
+    border-radius: 3px ;
+    border: none;
+
+}
+
+/* Placement formulaire */
+
+.formulaire{
+
+   
+    margin: auto;
+    padding: 20px;
+    border: solid;
+    border-radius: 3px;
+    width: 25%;
+    min-width: 360px;
+
+
+
+}
+
+.titreH2{
+
+    text-align: center;
+
+
+}
+ 
+hr{
+background-color: black;
+
+}
+
+/* couleur validation formulaire */
+
+.alert.alert-sucess {
+
+    background-color: rgb(51, 224, 8);
+    
+
+    
+}
+
+.alert.alert-danger {
+
+    background-color: rgb(237, 114, 20);
+    
+
+    
+}
+
+/* Dialecte */
+
+
+.dialecte{
+
+
+    color: rgb(143, 8, 8);
+
+}
+/* JUMBOTRON */
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    }
+
+    @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+    }
+
+
+/* gestion des images */
+
+.jumbotron.jumbotron-fluid {
+
+    color: black;
+    width: 80%;
+    margin: auto;
+    border-radius: 2px;
+}
+
+img{
+    height: 140px;
+}
+
+img[src="image/livre.png"] {
+    height: 38px;
+} 
+
+img[src="image/plus.png"] {
+    height: 25px;
+}
+
+img[src="image/modifier.png"] {
+    height: 30px;
+    border-radius: 5px;
+}
+
+img[src="image/supprimer.png"] {
+    height: 30px;
+    border-radius: 5px;
+}
+
+/* footer */
+
+footer{
+
+
+}
+
+thead{
+
+    font-style: italic;
+    font-size: 20px;
+
+}
+

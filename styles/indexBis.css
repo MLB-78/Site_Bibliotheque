@@ -1,0 +1,72 @@
+:root{
+
+        --principale: rgb(106, 6, 6);
+
+}
+
+
+.couleur{
+
+        background-color: rgb(255, 255, 255);
+     
+} 
+
+/* Bootstrap accueil.php */
+
+.card-body{
+        box-sizing: border-box;
+        color: black;
+}
+
+text{
+
+        color: var(--principale);
+        font-weight: bold;
+        text-decoration: underline;
+        text-align: center;
+        font-size: 24px;
+
+}
+
+
+
+
+.col-md-3:hover {
+    
+        transform: scale(1.01);
+        transition: 0.8s;
+}
+
+.modal-content {
+        color: black;
+    }
+
+    /* ligne list  */
+
+    .table-dark td, .table-dark th, .table-dark thead th {
+        border-color: var(--principale);
+    }
+
+/* row */
+
+.formNat{
+        border-radius: 8px;
+        border: solid;
+        padding: 20px;
+
+}
+
+/* MEDIA */
+
+@media all and (max-width:780px) {
+
+        .col-md-3{
+    
+                position: relative;
+                width: 80%;
+                padding-right: 0px;
+                padding-left: 81px;
+            
+        }
+        
+}
